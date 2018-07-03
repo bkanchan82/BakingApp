@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetItemContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/widget_listview_item_height"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/widget_listview_padding_x"
+    android:paddingLeft="@dimen/widget_listview_padding_x"
+    android:paddingRight="@dimen/widget_listview_padding_x"
+    android:paddingStart="@dimen/widget_listview_padding_x"
+    android:weightSum="2">
+
+    <TextView
+        android:id="@+id/widgetIngredientNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start"
+        android:textColor="@color/text" />
+
+</LinearLayout>

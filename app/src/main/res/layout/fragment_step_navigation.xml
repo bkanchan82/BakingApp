@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    style="?android:attr/buttonBarButtonStyle">
+
+    <Button
+        android:id="@+id/button_navigate_privious"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:text="@string/navigate_privious_label"
+        android:background="@android:color/transparent"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/button_navigate_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:text="@string/navigate_next_label"
+        android:background="@android:color/transparent"
+        android:layout_margin="8dp"/>
+
+</LinearLayout>

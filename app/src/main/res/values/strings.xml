@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BakingApp</string>
+    <string name="recipe_poster_image_description">Recipe Poster</string>
+    <string name="error_message">Error in loading recipe. Please try again</string>
+    <string name="step_description_label">Step Description</string>
+    <string name="navigate_privious_label">Previous</string>
+    <string name="navigate_next_label">Next</string>
+
+    <string name="widget_ingredient_screen">%1$s - %2$s - %3$d</string>
+
+
+    <string name="title_collection_widget">Baking</string>
+    <string name="ingredient_label">Ingredients</string>
+    <string name="recipe_steps_label">Recipe Steps</string>
+
+    <string name="favorite_content_description">Add to favorite</string>
+    <string name="recipe_step_content_description">Image to understand recipe step</string>
+</resources>

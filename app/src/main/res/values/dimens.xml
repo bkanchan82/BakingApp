@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <integer name="grid_view_column_count">1</integer>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin" tools:keep="@dimen/widget_margin">0dp</dimen>
+    <dimen name="widget_title_min_height">40dp</dimen>
+    <dimen name="widget_listview_padding_x">16dp</dimen>
+    <dimen name="widget_listview_item_height">45dp</dimen>
+</resources>
